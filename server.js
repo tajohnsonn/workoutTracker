@@ -1,8 +1,12 @@
 var express = require("express");
-// var bodyParser = require("body-parser");
+var bodyParser = require("body-parser");
+var path = require("path");
 
 // set up port to make deployment ready
 var PORT = process.env.PORT || 8080;
+
+// bring in modals
+var db = require("./models");
 
 // using app variable to run express
 var app = express();
