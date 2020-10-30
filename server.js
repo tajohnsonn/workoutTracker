@@ -30,9 +30,8 @@ app.use(express.json());
 // app.set("view engine", "handlebars");
 
 // GIVE SERVER ACCESS TO ROUTES
-var routes = require("./controllers/workout-controller.js");
-
-app.use(routes);
+require("./routes/api-routes")(app);
+require("./routes/html-routes")(app);
 
 // START SEVER TO LISTEN TO CLIENT REQUESTS
 app.listen(PORT, function() {

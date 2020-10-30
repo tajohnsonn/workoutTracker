@@ -1,4 +1,4 @@
-var db = require("models");
+var db = require("../models");
 
 module.exports = function(app) {
   // api get last workout
@@ -54,7 +54,7 @@ module.exports = function(app) {
     }
   });
 
-  app.get("api/workouts/range", (req, res) => {
+  app.get("/api/workouts/range", (req, res) => {
     db.Workout.find({})
       .then(workout => {
         res.json(workout);
