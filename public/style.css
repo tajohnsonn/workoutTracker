@@ -18,11 +18,15 @@ body {
 
 nav {
   background-color: #5793fd;
-  color: #ffffff;
+  color: purple;
   height: 80px;
   padding: 10px;
   line-height: 3;
-  font-size: 1.2rem;
+  font-size: 2rem;
+}
+
+#nav-title {
+  margin-left: 50px;
 }
 
 a,
@@ -96,7 +100,9 @@ input {
 }
 
 .wrapper {
-  color: #fff;
+  color: purple;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
 
@@ -378,10 +384,6 @@ form > button {
 
 .new-workout {
   display: none;
-}
-
-.mt {
-  margin-top: 20px;
 }
 
 .workout .ui.card {

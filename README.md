@@ -4,15 +4,15 @@
 
 ---
 
-![Desktop View](public/img/desktop.png)
+![Home Page View](public/img/fitness-home.png)
 
-![Mobile View](public/img/mobile.png)
+![Dashboard View](public/img/dashboard.png)
 
 ---
 
 # Link To Application 👇🏽
 
->
+> [Deployed Application](https://blooming-spire-19184.herokuapp.com/?id=5f9b5ca0373da30017012e2f)
 
 # Github Repo 👇🏽
 
@@ -34,4 +34,5 @@ MIT
 
 If you have any questions about this project, please open an issue or contact Taylor J. directly at tajohnsonn@gmail.com 👩🏽‍💻
 
-![author photo Taylor J.](https://avatars3.githubusercontent.com/u/57122209?s=460&u=98c6df52c701d97f4ad472ec554e3fb5753e1f9f&v=4)
+<img src="https://avatars0.githubusercontent.com/u/57122209?s=460&v=4"
+alt="avatar" style="border-radius: 16px" width="30" />
