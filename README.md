@@ -1,4 +1,4 @@
-# <span style="color:purple">\\*_Workout Tracker_\*\</span>
+# <span style="color:purple">Workout Tracker</span>
 
 ## This is a mobile first workout tracking app built with mongoDB. express.js, JavaScript, HTML5 and CSS3. 🏋🏾‍
 
